@@ -1,0 +1,10 @@
+marks=[80,100,90,95,87]
+print ("Marks : ",marks)
+total=sum(marks)
+average=total/len(marks)
+high=max(marks)
+low=min(marks)
+print ("Total Marks : ", total)
+print ("max Marks : ", high)
+print ("min Marks : ", low)
+print ("average Marks : ", average)

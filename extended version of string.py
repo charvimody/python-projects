@@ -1,0 +1,16 @@
+text=input("enter a string : ")
+print ("_______ORIGINL STRING _________")
+print (text )
+print ("length of string :",len(text))
+print ("uppercase :",text.upper())
+print ("lowercase :",text.lower())
+print ("capitalize :",text.capitalize())
+print ("swapcase :",text.swapcase())
+print ("first character :",text[0])
+print ("last character :",text[-1])
+print ("first 3 characters :",text[:3])
+print ("last 3 characters :",text[-3:])
+print ("reversed string :",text[::-1])
+char=input ("Enter a character to count ")
+print(f"'{char}' appears"), text.count(char), "times"
+
